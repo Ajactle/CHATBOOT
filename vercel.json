@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "chat.php": {
+      "runtime": "vercel-php@0.7.0"
+    }
+  },
+  "routes": [
+    {
+      "src": "/chat.php",
+      "dest": "/chat.php"
+    }
+  ]
+}
