@@ -4,7 +4,7 @@ header('Content-Type: text/html; charset=utf-8');
 // Conexión única a Google Cloud
 $servername = "35.226.253.223"; 
 $username = "root";
-$password = "Hola098.com"; // Tu contraseña real
+$password = "Lanadelrey098"; // Tu contraseña real
 $dbname = "chatbot"; 
 
 $conn = new mysqli($servername, $username, $password, $dbname);
