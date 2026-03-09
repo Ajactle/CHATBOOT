@@ -8,7 +8,10 @@
     {
       "src": "/chat.php",
       "dest": "/api/chat.php"
+    },
+    {
+      "src": "/api/chat.php",
+      "dest": "/api/chat.php"
     }
   ]
 }
-
