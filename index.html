@@ -596,7 +596,7 @@ function enviarPregunta() {
     let formData = new FormData();
     formData.append('mensaje', texto);
 
-    fetch('api/chat.php', {
+   fetch('api/chat.php', {
         method: 'POST',
         body: formData
     })
@@ -608,4 +608,5 @@ function enviarPregunta() {
     });
 }
 </script>
+
 </html>
